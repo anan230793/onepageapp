@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" 
+integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="container-fluid">
+        <nav class="navbar navbar-expand-md bg-warning navbar-dark sticky-top">
+          <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+          <img class="navbar-brand" height="60px" width="170px" src="22.png" alt="">
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="true">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navb" class="navbar-collapse collapse hide">
+            <ul class="navbar-nav ">
+              <li class="nav-item active">
+                <a class="nav-link text-dark" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#about">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#service">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#contact">Contact us</a>
+              </li>
+            </ul>
+        
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" data-toggle="modal" data-target="#exampleModal" href="#"><span class="fas fa-user"></span> Sign Up</a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false" >
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                          
+                        </div>
+                        <div class="modal-body">
+                            <div style="margin: 0;
+                            padding: 0;
+                            background: #DDD;
+                            font-size: 16px;
+                            color: #222;
+                            font-family: 'Roboto', sans-serif;
+                            font-weight: 300;">
+          <div id="login-box">
+            <div class="left">
+              <h1>Sign up</h1>
+              
+              <input type="text" name="username" placeholder="Username" />
+              <input type="text" name="email" placeholder="E-mail" />
+              <input type="password" name="password" placeholder="Password" />
+              <input type="password" name="password2" placeholder="Retype password" />
+              
+              <input type="submit" name="signup_submit" value="Sign me up" />
+            </div>
+            
+            <div class="right">
+              <span class="loginwith">Sign in with<br />social network</span>
+              
+              <button class="social-signin facebook">Log in with facebook</button>
+              <button class="social-signin twitter">Log in with Twitter</button>
+              <button class="social-signin google">Log in with Google+</button>
+            </div>
+            <div class="or">OR</div>
+          </div>
+          </div> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </li>
+        
+              <li class="nav-item">
+                <a class="nav-link text-dark" data-toggle="modal" data-target="#exampleModal2" href="#"><span class="fas fa-sign-in-alt"></span> Login</a>
+                  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-backdrop="false">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                            <div style="width: 390px;
+                            height: 300px;
+                            margin: auto;
+                            background-color: white;
+                            border-radius: 3px;">
+           <center>
+            <h1>Login</h1>
+          </center>
+          
+            <form action="form1.html" method="post">
+              <center>
+                  <table border="1px">
+          <tr>
+                    <td style="font-size: 20px;">Email*</td>
+                    <td><input type="email" name="" style="height: 35px; width: 180px;border: none;font-size: 18px;" />
+            </td>
+          </tr>
+          
+          <tr>
+                    <td style="font-size: 20px;">Password*</td>
+                    <td>
+          
+                      <input type="password" name="pwd" required style="height: 35px; width: 180px;border: none;font-size: 18px;" minlength="8" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" />
+          </td>
+          </tr>
+          
+           <tr> 
+                    <td colspan="2">
+                      <center>
+                        <input type="Submit" name="submit" align="center" style="color:white ;background-color: #49c1a2;height: 35px; width: 180px;border: none;font-size: 18px; "/>
+                      </center>
+          
+          </td>
+          </tr>
+          </table>
+          
+          
+          </center>
+          </form>
+          <p style="text-align: center;">Not have an account? <a href="signup.html">Signup Here</a></p>
+          </div> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+              </form>
+          </div>
+        </nav>
+          <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+            <div id="home" class="bg-dark text-white text-center">
+                
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <!-- <li data-target="#demo" data-slide-to="2"></li> -->
+                    </ul>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="banner1.jpg" alt="Chicago" width="1100" height="500">
+                        <div class="carousel-caption">
+                          <h3>Indore | Ujjain</h3>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="banner2.png" alt="New York" width="1100" height="500">
+                        <div class="carousel-caption">
+                            <h3>Indore | Ujjain</h3>
+                        </div>   
+                      </div>
+                      <!-- <div class="carousel-item">
+                          <img src="4.jpg" alt="New York" width="1100" height="500">
+                          <div class="carousel-caption">
+                            <h3>Indore | Ujjain</h3>
+                          </div>   
+                        </div> -->
+                    </div>
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                  </div>    
+            
+            </div>
+            <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                <div id="about" class="bg-warning text-dark text-center">
+                    <div class="about-section text-white">
+                        <h2>What makes us who we are today…</h2>
+                        <p>At Softimpact, we develop innovative and creative products and services that provide total communication and information solutions. Among a plethora of services, web design and development, tailor made applications, ERPs, CRMs, e-commerce solutions, business-to-business applications, business-to-client applications, managed hosting and internet portal management are few that we offer. Satisfied clients around the globe bear testimony to the quality of our work.
+                            As a leader in technology exploring, Softimpact is committed to exporting quality software worldwide.</p>
+                        <p>The general purpose of Softimpact is to develop and promote advanced information technologies for multi-user operation.
+
+                            Softimpact's business philosophy is to assure the highest quality product, total client satisfaction, timely delivery of solutions and the best quality/price ratio found in the industry.
+                            
+                            Our emphasis is on offering a high degree of product user friendliness through a positive, creative and focused company staff.</p>
+                      </div>
+                      
+                      <h2 style="text-align:center">Our Team</h2>
+                      <div class="row">
+                        <div class="column">
+                          <div class="card">
+                            <img src="team1.jpg" alt="Jane" style="width:100%">
+                            <div class="container">
+                              <h2>Jane Doe</h2>
+                              <p class="title">CEO & Founder</p>
+                              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                              <p>jane@example.com</p>
+                              <p><button class="button">Contact</button></p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="column">
+                          <div class="card">
+                            <img src="team2.jpg" alt="Mike" style="width:100%">
+                            <div class="container">
+                              <h2>Mike Ross</h2>
+                              <p class="title">Art Director</p>
+                              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                              <p>mike@example.com</p>
+                              <p><button class="button">Contact</button></p>
+                            </div>
+                          </div>
+                        </div>
+                      
+                        <div class="column">
+                          <div class="card">
+                            <img src="team3.jpg" alt="John" style="width:100%">
+                            <div class="container">
+                              <h2>John Doe</h2>
+                              <p class="title">Designer</p>
+                              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                              <p>john@example.com</p>
+                              <p><button class="button">Contact</button></p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>    
+                </div>
+            
+            <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                <div id="service" class="text-white text-center" style="background-color: #17242c;">
+                    <div class="container bootstrap snippets bootdey">
+                        <section id="services" class="current">
+                            <div class="services-top">
+                                <div class="container bootstrap snippets bootdey">
+                                    <div class="row text-center">
+                                        <div class="col-sm-12 col-md-12 col-md-12">
+                                            <h2>What We Offer</h2>
+                                            <h2 style="font-size: 60px;line-height: 60px;margin-bottom: 20px;font-weight: 900;">Our Services</h2>
+                                            <p>Our <span class="highlight">experienced</span> and <span class="highlight">dedicated</span> staff provide these services with a smile.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-offset-1 col-sm-12 col-md-12 col-md-10">
+                                            <div class="services-list">
+                                                <div class="row">
+                                                    <div class="col-sm-6 col-md-4 col-md-4">
+                                                        <div class="service-block" style="visibility: visible;">
+                                                            <div class="ico fa fa-magic highlight"></div>
+                                                            <div class="text-block">
+                                                                <div class="name">Web Design</div>
+                                                                <div class="info">Beauty and function</div>
+                                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4 col-md-4">
+                                                        <div class="service-block" style="visibility: visible;">
+                                                            <div class="ico fa fa-code highlight"></div>
+                                                            <div class="text-block">
+                                                                <div class="name">Development/Coding</div>
+                                                                <div class="info">Quality code that lasts</div>
+                                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4 col-md-4">
+                                                        <div class="service-block" style="visibility: visible;">
+                                                            <div class="ico fa fa-pencil highlight"></div>
+                                                            <div class="text-block">
+                                                                <div class="name">Copy Writing</div>
+                                                                <div class="info">Words that tell your story</div>
+                                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4 col-md-4">
+                                                        <div class="service-block" style="visibility: visible;">
+                                                            <div class="ico fa fa-bullhorn highlight"></div>
+                                                            <div class="text-block">
+                                                                <div class="name">SEO/PPCM</div>
+                                                                <div class="info">Converting users to customers</div>
+                                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4 col-md-4">
+                                                        <div class="service-block" style="visibility: visible;">
+                                                            <div class="ico fa fa-eye highlight"></div>
+                                                            <div class="text-block">
+                                                                <div class="name">Branding/Identity</div>
+                                                                <div class="info">Leave a lasting impression</div>
+                                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6 col-md-4 col-md-4">
+                                                        <div class="service-block" style="visibility: visible;">
+                                                            <div class="ico fa fa-umbrella highlight"></div>
+                                                            <div class="text-block">
+                                                                <div class="name">Strategy/Planning</div>
+                                                                <div class="info">Thinking beyond tomorrow</div>
+                                                                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        </div>                        
+                </div>
+           
+            <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+                <div id="contact" class="bg-success text-white text-center">
+                    
+                </div>
+                <div class="contact-form bg-warning">
+                    <div class="contact-image">
+                        <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+                    </div>
+                    <form method="post">
+                        <h3>Drop Us a Message</h3>
+                       <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+        </div>
+          </div>
+    </div>
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 400px;
+        }
+        body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #17242c;
+  color: rgb(10, 10, 10);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #17242c;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+                        
+#services {}
+#services .services-top {
+    padding: 70px 0 50px;
+}
+#services .services-list {
+    padding-top: 50px;
+}
+.services-list .service-block {
+    margin-bottom: 25px;
+}
+.services-list .service-block .ico {
+    font-size: 38px;
+    float: left;
+}
+.services-list .service-block .text-block {
+    margin-left: 58px;
+}
+.services-list .service-block .text-block .name {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.services-list .service-block .text-block .info {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.services-list .service-block .text-block .text {
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 300;
+}
+.highlight {
+    color: #2ac5ed;
+    font-weight:bold;
+}          
+
+/* h2 {  
+padding: 25px 0;  
+text-align: center;  
+color: #fff;  
+background: #7c8490;  
+}   */
+footer {  
+ background: #17242c;  
+  color: white;  
+  margin-top:100px;  
+}  
+footer a {  
+  color: #fff;  
+  font-size: 14px;  
+  transition-duration: 0.2s;  
+}  
+footer a:hover {  
+  color: #FA944B;  
+  text-decoration: none;  
+}  
+.copy {  
+  font-size: 12px;  
+  padding: 10px;  
+  border-top: 1px solid #FFFFFF;  
+}  
+.footer-middle {  
+  padding-top: 2em;  
+  color: white;  
+}  
+ul.social-network {  
+  list-style: none;  
+  display: inline;  
+  margin-left: 0 !important;  
+  padding: 0;  
+}  
+ul.social-network li {  
+  display: inline;  
+  margin: 0 5px;  
+}  
+  
+.social-network a.icoFacebook:hover {  
+  background-color: #3B5998;  
+}  
+.social-network a.icoLinkedin:hover {  
+  background-color: #007bb7;  
+}  
+.social-network a.icoFacebook:hover i  
+{  
+  color: #fff;  
+}  
+.social-network a.icoLinkedin:hover i {  
+  color: #fff;  
+}  
+.social-network a.socialIcon:hover {  
+  color: #44BCDD;  
+}  
+.socialHoverClass {  
+  color: #44BCDD;  
+}  
+.social-circle li a {  
+  display: inline-block;  
+  position: relative;  
+  margin: 0 auto 0 auto;  
+  -moz-border-radius: 50%;  
+  -webkit-border-radius: 50%;  
+  border-radius: 50%;  
+  text-align: center;  
+  width: 30px;  
+  height: 30px;  
+  font-size: 15px;  
+}  
+.social-circle li i {  
+  margin: 0;  
+  line-height: 30px;  
+  text-align: center;  
+}  
+.social-circle li a:hover i  
+{  
+  -moz-transform: rotate(360deg);  
+  -webkit-transform: rotate(360deg);  
+  -ms--transform: rotate(360deg);  
+  transform: rotate(360deg);  
+  -webkit-transition: all 0.2s;  
+  -moz-transition: all 0.2s;  
+  -o-transition: all 0.2s;  
+  -ms-transition: all 0.2s;  
+  transition: all 0.2s;  
+}  
+.triggeredHover {  
+  -moz-transform: rotate(360deg);  
+  -webkit-transform: rotate(360deg);  
+  -ms--transform: rotate(360deg);  
+  transform: rotate(360deg);  
+  -webkit-transition: all 0.2s;  
+  -moz-transition: all 0.2s;  
+  -o-transition: all 0.2s;  
+  -ms-transition: all 0.2s;  
+  transition: all 0.2s;  
+}  
+.social-circle i {  
+  color: #595959;  
+  -webkit-transition: all 0.8s;  
+  -moz-transition: all 0.8s;  
+  -o-transition: all 0.8s;  
+  -ms-transition: all 0.8s;  
+  transition: all 0.8s;  
+}  
+.social-network a {  
+  background-color: #F9F9F9;  
+}  
+.social-network a:hover {  
+background: #ff304d;  
+} 
+
+body{
+    background: #fa2542;
+}
+.contact-form{
+    margin-top: 5%;
+    margin-bottom: auto;
+    width: 70%;
+    margin-left: 15%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+*:focus {
+  outline: none;
+}
+
+#login-box {
+  position: relative;
+  margin: 5% auto;
+  width: 600px;
+  height: 400px;
+  background: #FFF;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-bottom: 1px solid #AAA;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+input[type="submit"] {
+  margin-top: 28px;
+  width: 120px;
+  height: 32px;
+  background: #16a085;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  line-height: 40px;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  background: url('https://goo.gl/YbktSj');
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 2px 2px 0;
+}
+
+.right .loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+}
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin:active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+  background: #32508E;
+}
+
+button.social-signin.twitter {
+  background: #55ACEE;
+}
+
+button.social-signin.google {
+  background: #DD4B39;
+}
+    </style>
+    <footer class="mainfooter " role="contentinfo">  
+        <div class="footer-middle">  
+        <div class="container">  
+          <div class="row">  
+            <div class="col-md-3 col-sm-6">  
+              <div class="footer-pad">  
+                <h4> Tech World</h4>  
+                <ul class="list-unstyled">  
+                  <li> <a href="#"> </a>About Tech World </li>  
+                  <li> <a href="#">Careers</a></li>  
+                  <li> <a href="#">Blogs</a></li>  
+                  <li> <a href="#">Forms</a></li>  
+                  <li> <a href="#">News and Updates</a></li>  
+                  <li> <a href="#">FAQs</a></li>  
+                </ul>  
+              </div>  
+            </div>  
+            <div class="col-md-3 col-sm-6">  
+              <div class="footer-pad">  
+                <h4> Services</h4>  
+                <ul class="list-unstyled">  
+                  <li><a href="#"> Web Design </a> </li>  
+                  <li><a href="#">Development/Coding</a> </li>  
+                  <li><a href="#">Copy Writing</a></li>  
+                  <li><a href="#">SEO/PPCM</a></li>  
+                  <li><a href="#">Branding/Identity</a></li>  
+                  <li><a href="#">Strategy/Planning</a></li>  
+                </ul>  
+              </div>  
+            </div>  
+            <div class="col-md-3 col-sm-6">  
+              <div class="footer-pad">  
+                <h4> Contact Us </h4>  
+                <ul class="list-unstyled">  
+                  <li> <a href="#"> Tech World</a> </li>  
+                  <li> <a href="#"> 229-A,Nariman Point,Indore </a> </li>  
+                  <li> <a href="#">MP,452010</a> </li>  
+                  <li> <a href="#"> +91-7974146519 </a> </li>  
+                  <li> <a href="#"> 0731-458012</a> </li>  
+                </ul>  
+              </div>  
+            </div>  
+              <div class="col-md-3">  
+                  <h4> Follow Us </h4>  
+                  <ul class="social-network social-circle">                     
+                <i class="fab fa-facebook-square social fa-2x"></i>
+                <i class="fab fa-linkedin social fa-2x"></i>
+                <i class="fab fa-twitter-square social fa-2x"></i>
+                  </ul>  
+                               
+          </div>  
+          </div>  
+          <div class="row">  
+            <div class="col-md-12 ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14715.790822875852!2d75.9120263!3d22.7673219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd657b08d3ab44bf4!2sNariman%20Point%20Residential%20Society!5e0!3m2!1sen!2sin!4v1659296128448!5m2!1sen!2sin"
+             width="100%" height="300" style="border:0;" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+          <div class="col-md-12 copy">  
+          <p class="text-center"> © Copyright 2021 - Company Name.  All rights reserved. </p>  
+          </div>  
+          
+          </div>  
+        </div>  
+        </div>  
+      </footer>  
+        </body>
+</html>
